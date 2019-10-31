@@ -234,8 +234,8 @@ of the Open Liberty runtime is being used. The section looks similar to the foll
                         </requireJavaVersion>
                         <requireProperty>
                             <property>version.openliberty-runtime</property>
-                            <regex>19.0.0.9</regex>
-                            <regexMessage>OpenLiberty runtime version must be 19.0.0.9</regexMessage>
+                            <regex>19.0.0.8</regex>
+                            <regexMessage>OpenLiberty runtime version must be 19.0.0.8</regexMessage>
                         </requireProperty>
                     </rules>
                 </configuration>
@@ -261,7 +261,7 @@ working with Tekton pipelines, which is the subject of another guide.
 // Creating Kabanero Collections
 // =================================================================================================
 
-Creating Kabanero Collections
+== Creating Kabanero Collections
 
 Although it is possible to create a new Kabanero Collection for your organisation, we're not going to do this as part of this guide.
 However, the following steps outline the necessary tasks:
