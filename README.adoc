@@ -72,7 +72,9 @@ with Open Liberty, Spring Boot with Tomcat, or Node.js with Express.
 == Creating a local Kabanero Collection Hub
 
 The *public* Kabanero Collection Hub contains all the latest collections from the Kabanero project. Before working with
-Kabanero Collections, you must create a Kabanero Collection Hub locally by cloning the public GitHub repository.  This will allow you to customize, enable, or disable individual Collections for your enterprise.  Customizations you make can be merged with future updates from the public Collection Hub using standard Git.
+Kabanero Collections, you must create a Kabanero Collection Hub locally by cloning the public GitHub repository.
+This will allow you to customize, enable, or disable individual Collections for your enterprise.
+Customizations you make can be merged with future updates from the public Collection Hub using standard Git.
 
 Run the following commands to clone the public Kabanero Collection Hub and push a copy to a private Git repository:
 
@@ -444,6 +446,10 @@ Push the tags to your GIT repository by running `git push --tags`.
 Again, you can set up Travis to automatically trigger a build that generates a GIT release, pushing the images to the
 image repository for your organisation. If you want to learn how to manually create a GIT release from a local build, see
 https://github.com/kabanero-io/collections/blob/master/create-release.md[Create GIT release manually].
+
+**Note:** When using Github Enterprise to store collections, you might need an alternative mechanism for hosting your
+release artifacts due to authentication requirements. See [Hosting your collections using NGINX](https://github.com/kabanero-io/collections/blob/master/ci/tekton/README.md),
+which describes the steps needed to build your collections and deploy an NGINX server to host them into your Kabanero instance.
 
 Now that you've built your local Collection Hub and customized your Collections, remember to do the following tasks:
 
