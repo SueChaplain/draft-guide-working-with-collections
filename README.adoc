@@ -468,7 +468,7 @@ image repository for your organisation. If you want to learn how to manually cre
 https://github.com/kabanero-io/collections/blob/master/create-release.md[Create GIT release manually].
 
 **Note:** When using Github Enterprise to store collections, you might need an alternative mechanism for hosting your
-release artifacts due to authentication requirements. See [Hosting your collections using NGINX](https://github.com/kabanero-io/collections/blob/master/ci/tekton/README.md),
+release artifacts due to authentication requirements. See https://github.com/kabanero-io/collections/blob/master/ci/tekton/README.md[Hosting your collections using NGINX],
 which describes the steps needed to build your collections and deploy an NGINX server to host them into your Kabanero instance.
 
 Now that you've built your local Collection Hub and customized your Collections, remember to do the following tasks:
