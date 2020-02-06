@@ -35,6 +35,8 @@ the guide in published form, view it on the https://kabanero.io/guides/{projecti
 
 == What you will learn
 
+**NOTE: Use this guide only for Kabanero V0.5.0 and earlier releases.**
+
 You will learn how to create a local Kabanero Collection Hub for your organisation. After learning about
 the general structure of Collections, you will apply some changes for an application stack. You will then
 build, test, and publish your own customised Kabanero Collection.
